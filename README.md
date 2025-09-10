@@ -2,6 +2,8 @@
 
 Modern React uygulaması ile geliştirilmiş bir post yönetim sistemi. React, TypeScript, Vite, Redux Toolkit ve Tailwind CSS kullanılarak oluşturulmuştur.
 
+🚀 **[Canlı Demo](https://post-application-with-vite.vercel.app/)**
+
 ## Özellikler
 
 -  Vite ile hızlı geliştirme
