@@ -24,7 +24,7 @@ Modern React uygulaması ile geliştirilmiş bir post yönetim sistemi. React, T
 
 1. Repository'yi klonlayın:
 ```bash
-git clone <repository-url>
+git clone https://github.com/albekaltay/post-application-with-vite.git
 cd post-application-with-vite
 ```
 
