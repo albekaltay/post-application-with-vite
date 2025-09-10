@@ -73,10 +73,13 @@ export function Posts() {
     {
       key: "userId",
       label: "Author",
+      className: "min-w-[120px] max-w-[150px]",
       render: (post: Post) => (
         <div className="flex items-center gap-2">
-          <User className="h-3.5 w-3.5 text-muted-foreground" />
-          <span className="text-sm text-muted-foreground">{getUserName(post.userId)}</span>
+          <User className="h-3.5 w-3.5 text-muted-foreground hidden lg:block" />
+          <span className="text-sm text-muted-foreground truncate" title={getUserName(post.userId)}>
+            {getUserName(post.userId)}
+          </span>
         </div>
       ),
     },
@@ -90,7 +93,7 @@ export function Posts() {
         </div>
       ),
     },
-  ], [users])
+  ], [users, getUserName])
 
   return (
     <>
