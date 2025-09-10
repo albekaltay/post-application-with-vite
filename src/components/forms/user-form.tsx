@@ -77,7 +77,7 @@ export function UserForm({ isOpen, onClose, user, isEdit = false }: UserFormProp
           </SheetDescription>
         </SheetHeader>
         <motion.div 
-          className="flex flex-col h-[calc(100vh-120px)]"
+          className="flex flex-col  md:h-[calc(100vh-120px)]"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 20 }}
